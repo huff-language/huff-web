@@ -3,6 +3,10 @@
 A simple landing page for the [Huff Language](https://github.com/huff-language).
 
 ## Get Started
+Install yarn if you haven't already:
+```shell
+npm i -g yarn
+```
 Install dependencies and start the development environment:
 ```shell
 yarn && yarn dev
