@@ -31,7 +31,7 @@ const LinkNav: React.FC = () => {
 			tooltip: 'Twitter',
 		},
 		{
-			link: '/',
+			link: 'http://localhost:8080/get-started/',
 			icon: 'book',
 			tooltip: 'Documentation & Specification',
 		},
