@@ -12,7 +12,7 @@ export const Main: React.FC = () => {
 						<Logo />
 					</LogoContainer>
 					<span className='mono-font'>
-						Huff Lang
+						Huff
 						<p>
 							<Badge bg='secondary'>curl -L https://get.huff.sh | bash</Badge>
 							<br />A low level assembly language for the EVM.
