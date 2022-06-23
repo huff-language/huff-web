@@ -31,7 +31,11 @@ const LinkNav: React.FC = () => {
 			tooltip: 'Twitter',
 		},
 		{
+<<<<<<< HEAD
 			link: 'http://localhost:8080/get-started/overview/',
+=======
+			link: 'http://docs.huff.sh/get-started/',
+>>>>>>> e9d18089dd85adf24fdf5c169a74fe5c2000adb7
 			icon: 'book',
 			tooltip: 'Documentation & Specification',
 		},
