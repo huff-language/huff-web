@@ -14,7 +14,7 @@ export const Main: React.FC = () => {
 					<span className='mono-font'>
 						Huff
 						<p>
-							<Badge bg='secondary'>curl -L https://get.huff.sh | bash</Badge>
+							<Badge bg='secondary'>curl -L get.huff.sh | bash</Badge>
 							<br />A low level assembly language for the EVM.
 						</p>
 					</span>
