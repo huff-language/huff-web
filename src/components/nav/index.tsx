@@ -31,9 +31,9 @@ const LinkNav: React.FC = () => {
 			tooltip: 'Twitter',
 		},
 		{
-			link: 'https://docs.huff.sh/get-started/',
+			link: 'https://docs.huff.sh/',
 			icon: 'book',
-			tooltip: 'Documentation & Specification',
+			tooltip: 'Documentation',
 		},
 	]
 
