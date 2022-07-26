@@ -23,8 +23,9 @@ yarn build && yarn start # defaults to port 3000. To change the port, pass "-p <
 ```
 
 ## TODO
-- [ ] Link documentation to [current VuePress docs](https://github.com/huff-language/huffc/tree/master/docs) once they're hosted.
-- [ ] Create specification page (or include it as a section in the above docs).
+
+- [x] Link documentation to [current VuePress docs](https://github.com/huff-language/huffc/tree/master/docs) once they're hosted.
+- [x] Create specification page (or include it as a section in the above docs).
 - [ ] Add `eslint` and create a workflow for it.
 - [ ] `yarn` -> `pnpm`
-- [ ] Add contribution guidelines.
+- [x] Add contribution guidelines (in [documentation](https://docs.huff.sh))
