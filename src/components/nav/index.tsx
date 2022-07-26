@@ -21,6 +21,11 @@ type NavItems = NavItem[]
 const LinkNav: React.FC = () => {
 	const NAV_ITEMS: NavItems = [
 		{
+			link: 'http://discord.huff.sh',
+			icon: ['fab', 'discord'],
+			tooltip: 'Discord',
+		},
+		{
 			link: 'https://github.com/huff-language/',
 			icon: ['fab', 'github'],
 			tooltip: 'GitHub',
