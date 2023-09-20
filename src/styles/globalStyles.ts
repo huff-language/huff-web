@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.colors.text};
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
 
   a {
