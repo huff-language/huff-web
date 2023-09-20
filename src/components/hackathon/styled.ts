@@ -111,11 +111,10 @@ export const Schedule = styled.table`
 
   td {
     font-size: 1.4rem;
-    padding: .5vh .5vw;
+    padding: .25vh 1vw;
   }
 
   .date {
-    font-size: 1.75rem;
     text-align: center;
   }
 
