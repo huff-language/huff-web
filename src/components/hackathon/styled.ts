@@ -24,43 +24,47 @@ export const Container = styled.div`
   gap: 4vh;
 
   h1 {
-    font-size: 12vh;
+    font-size: 5.5rem;
+    font-family: 'Roboto Mono', sans-serif;
     line-height: .9;
     margin: 0;
     text-align: center;
-    word-spacing: 50%;
   }
 
   h2 {
-    font-size: 6vh;
+    font-size: 3.25rem;
     font-weight: bold;
     margin: 0;
     text-align: center;
     font-family: "Roboto Mono", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #4242c7;
+    text-decoration-thickness: 5px;
   }
 
   h3 {
-    font-size: 3vh;
+    font-size: 1.5rem;
     margin: 0;
     text-align: center;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   p {
     line-height: 1.25;
-    font-size: 2.5vh;
+    font-size: 1.4rem;
     margin: 0;
   }
 `;
 
 export const Link = styled.a`
-  margin-top: 4vh;
   background-color: #4242c7;
   text-decoration: none;
   padding: 1.5vh 2.75vw;
   border-radius: 8px;
-  font-size: 2.25vh;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     background-color: ${(props) => props.theme.colors.accent0};

@@ -3,6 +3,7 @@ import React from 'react'
 import { Container, Wrapper, Link, Nerds, Nerd, Schedule, FAQs } from './styled';
 import { Logo } from '@components/main/styled'
 import LinkNav from '@components/nav'
+import { BsLink45Deg } from 'react-icons/bs';
 
 const nerds: Array<{ name: string, role: string, pfp: string }> = [
   {
@@ -75,10 +76,15 @@ export const Hackathon: React.FC = () => {
       <Container>
         <Logo />
         <div>
-          <h1>World's First Huff Hackathon</h1>
+          <h1>Huffathon</h1>
+          <h2>The World's First Huff Hackathon</h2>
           <h3 style={{ marginTop: '1vh' }}>Sep 28 - Oct 03, 2023 · Virtual</h3>
         </div>
-        <Link href="https://jig79bdvw35.typeform.com/to/h3Sjvngb">Register to participate</Link>
+        <Link href="https://jig79bdvw35.typeform.com/to/h3Sjvngb">
+          <span>Register now to participate</span>
+          {' '}
+          <BsLink45Deg />
+        </Link>
       </Container>
 
       <Container>
