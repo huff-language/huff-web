@@ -92,7 +92,7 @@ export const Hackathon: React.FC = () => {
           <h2>The World's First Huff Hackathon</h2>
           <h3 style={{ marginTop: '1vh' }}>Sep 28 - Oct 03, 2023 · Virtual</h3>
         </div>
-        <Link href="https://jig79bdvw35.typeform.com/to/h3Sjvngb">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf-OA-jvAIMXBd2Heceji-Tqqelk8b-F-DodFIYAHHYysmvbQ/viewform?usp=sf_link">
           <span>Register now to participate</span>
           {' '}
           <BsLink45Deg />
