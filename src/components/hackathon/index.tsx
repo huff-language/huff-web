@@ -50,7 +50,7 @@ const faqs: Array<{ question: string, answer: string }> = [
   },
   {
     question: "When and where is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event that will take place on X (formerly known as Twitter) and the Huff Discord server. The event will begin on Friday, October 1st, 2021, and end on Sunday, October 3rd, 2021."
+    answer: "The Huff Hackathon is a virtual event that will take place on X (formerly known as Twitter) and the Huff Discord server. The event will begin on Thursday, September 28, 2023, and end on Tuesday, October 3rd, 2023."
   },
   {
     question: "How can I participate in the Huff Hackathon?",
