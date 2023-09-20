@@ -72,3 +72,23 @@ export const Logo = styled.div`
 export const MutedText = styled.span`
 	color: ${props => props.theme.colors.textMuted};
 `
+
+export const BigButton = styled.a`
+	text-decoration: none;
+	background-color: #4242c7;
+	color: white;
+	border-radius: 0.25rem;
+	padding: 0.25rem 1.5rem;
+	font-size: 1rem;
+	margin-bottom: 20px;
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+	transition: all 0.2s ease-in-out;
+	justify-content: space-between;
+  align-items: center;
+
+	&:hover {
+		background-color: white;
+		color: #4242c7;
+	}
+`;
