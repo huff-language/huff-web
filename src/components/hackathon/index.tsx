@@ -46,28 +46,40 @@ const nerds: Array<{ name: string, role: string, pfp: string }> = [
 const faqs: Array<{ question: string, answer: string }> = [
   {
     question: "What is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event where developers can learn about Huff and EVM programming, build projects, and compete for prizes. It's a great opportunity to learn, network, and collaborate with other developers.",
+    answer: "The Huff Hackathon is a virtual event where developers can learn about Huff and EVM programming, build projects, and compete for prizes. It's a great opportunity to learn, network, and collaborate with other developers."
   },
   {
     question: "When and where is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event that will take place on the Huff Discord server. The event will begin on Friday, October 1st, 2021, and end on Sunday, October 3rd, 2021.",
+    answer: "The Huff Hackathon is a virtual event that will take place on X (formerly known as Twitter) and the Huff Discord server. The event will begin on Friday, October 1st, 2021, and end on Sunday, October 3rd, 2021."
   },
   {
     question: "How can I participate in the Huff Hackathon?",
-    answer: "To participate in the Huff Hackathon, you must register on our official website. Registration is free and open to developers of all levels and backgrounds.",
+    answer: "To participate in the Huff Hackathon, you must register on our official website. Registration is free and open to developers of all levels and backgrounds."
   },
   {
-    question: "What is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event where developers can learn about Huff and EVM programming, build projects, and compete for prizes. It's a great opportunity to learn, network, and collaborate with other developers.",
+    question: "What are the key dates and deadlines for the Huff Hackathon?",
+    answer: "Important dates and deadlines, including submission deadlines, will be available on our website and communicated to participants. Be sure to check the official hackathon page for updates."
   },
   {
-    question: "When and where is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event that will take place on the Huff Discord server. The event will begin on Friday, October 1st, 2021, and end on Sunday, October 3rd, 2021.",
+    question: "What kind of projects are eligible for submission?",
+    answer: "Projects created using Huff and related to blockchain, Ethereum, or EVM are eligible for submission. Themes and categories, if any, will be announced prior to the hackathon."
   },
   {
-    question: "How can I participate in the Huff Hackathon?",
-    answer: "To participate in the Huff Hackathon, you must register on our official website. Registration is free and open to developers of all levels and backgrounds.",
+    question: "What is the judging criteria for the hackathon?",
+    answer: "Projects will be judged based on factors such as creativity, technical innovation, functionality, and overall impact. Detailed judging criteria will be provided to participants during the event."
   },
+  {
+    question: "Do I need to have prior experience with Huff or EVM programming to participate?",
+    answer: "While prior experience can be helpful, it is not a strict requirement. The hackathon may offer resources and support for participants to learn Huff and EVM programming during the event."
+  },
+  {
+    question: "Can I participate as an individual or do I need to form a team?",
+    answer: "You can participate either as an individual or as part of a team. The ideal team size may vary, but having diverse skills within your team can be advantageous."
+  },
+  {
+    question: "Are there any prizes or rewards for the winners?",
+    answer: "Yes, there are prizes and rewards for the winners, including cash prizes, swag, and potential opportunities to collaborate with industry experts. Details about the prizes will be announced closer to the event."
+  }
 ];
 
 export const Hackathon: React.FC = () => {
@@ -107,28 +119,61 @@ export const Hackathon: React.FC = () => {
         <Schedule>
           <tbody>
             <tr>
-              <td>Event starts</td>
-              <td>Sep 28, 4:00 PM (UTC)</td>
+              <td className="date bottom" rowSpan={4}>28/9</td>
+              <td className="activity">Opening</td>
+              <td>15:00 (UTC)</td>
             </tr>
             <tr>
-              <td>CTFs &amp; talks</td>
-              <td>Sep 29, TDB (UTC)</td>
+              <td className="activity">Workshop / office hours</td>
+              <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td>Workshops &amp; hackathon starts</td>
-              <td>Sep 30, TDB (UTC)</td>
+              <td className="activity">Huff Challenge #0: Intro</td>
+              <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td>Hackathon ends</td>
-              <td>Oct 02, TDB (UTC)</td>
+              <td className="activity bottom">Huff Challenge #1: Optimizor War by @minaminao</td>
+              <td className="bottom">22:00 (UTC)</td>
             </tr>
             <tr>
-              <td>Closing ceremony</td>
-              <td>Oct 03, TDB (UTC)</td>
+              <td className="date bottom" rowSpan={3}>29/9</td>
+              <td className="activity">Huff Challenge #2: by @PraneshASP</td>
+              <td>08:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity">Speaker Session: Production Huff by @jtriley</td>
+              <td>13:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity bottom">Huff Challenge #3: Solady Challenge</td>
+              <td className='bottom'>14:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="date bottom" rowSpan={2}>30/9</td>
+              <td className="activity">Pre-Hackathon workshop / office hours</td>
+              <td>16:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity bottom">Hackathon begins!</td>
+              <td className='bottom'>17:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="date bottom" rowSpan={2}>02/10</td>
+              <td className="activity">Hackathon ends.</td>
+              <td>16:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity bottom">Speaker Session: Huffidity by @Michaels</td>
+              <td className='bottom'>17:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="date">03/10</td>
+              <td className="activity">Closing ceremony with Mystery speaker</td>
+              <td>13:00 (UTC)</td>
             </tr>
           </tbody>
         </Schedule>
-      </Container>
+      </Container >
 
       <Container>
         <h2>Speakers &amp; Judges</h2>
@@ -163,6 +208,6 @@ export const Hackathon: React.FC = () => {
       <Container>
         <LinkNav />
       </Container>
-    </Wrapper>
+    </Wrapper >
   )
 }

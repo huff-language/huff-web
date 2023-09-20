@@ -110,25 +110,25 @@ export const Schedule = styled.table`
   border-collapse: collapse;
 
   td {
-    font-size: 3vh;
-    padding: 2vh 1vh;
+    font-size: 1.4rem;
+    padding: .5vh .5vw;
   }
 
-  tr {
-    border-bottom: 2px solid white;
+  .date {
+    font-size: 1.75rem;
+    text-align: center;
   }
 
-  tr:last-child {
-    border-bottom: none;
-  }
-
-  td:first-child {
-    text-align: left;
+  .activity {
     font-family: "Roboto Mono", sans-serif;
   }
 
+  .bottom {
+    border-bottom: 2px solid white;
+  }
+
   td:last-child {
-    font-size: 2.25vh;
+    font-size: 1.2rem;
     text-align: right;
     font-weight: 400;
     color: #4242c7;
