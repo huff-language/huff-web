@@ -141,6 +141,10 @@ export const Hackathon: React.FC = () => {
               <td>08:00 (UTC)</td>
             </tr>
             <tr>
+              <td className="activity">Speaker Session: huff-stacker by @shafu</td>
+              <td>13:00 (UTC)</td>
+            </tr>
+            <tr>
               <td className="activity">Speaker Session: Production Huff by @jtriley</td>
               <td>13:00 (UTC)</td>
             </tr>
@@ -165,6 +169,10 @@ export const Hackathon: React.FC = () => {
             <tr>
               <td className="activity bottom">Speaker Session: Huffidity by @Michaels</td>
               <td className='bottom'>17:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity bottom">Speaker Session: METH/WETH by @philogy</td>
+              <td className='bottom'>18:00 (UTC)</td>
             </tr>
             <tr>
               <td className="date">03/10</td>
