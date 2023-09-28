@@ -132,12 +132,12 @@ export const Hackathon: React.FC = () => {
               <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Huff Challenge #1: Optimizor War by @minaminao</td>
+              <td className="activity bottom"><a href="https://minaminao.github.io/optimizor-war/">Huff Challenge #1: Optimizor War by @minaminao</a></td>
               <td className="bottom">22:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="date bottom" rowSpan={3}>29/9</td>
-              <td className="activity">Huff Challenge #2: by @PraneshASP</td>
+              <td className="date bottom" rowSpan={4}>29/9</td>
+              <td className="activity">Huff Challenge #2: @PraneshASP Challenge</td>
               <td>08:00 (UTC)</td>
             </tr>
             <tr>
@@ -149,7 +149,7 @@ export const Hackathon: React.FC = () => {
               <td>13:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Huff Challenge #3: Solady Challenge</td>
+              <td className="activity bottom">Huff Challenge #3: RareSkills Challenge</td>
               <td className='bottom'>14:00 (UTC)</td>
             </tr>
             <tr>
@@ -162,17 +162,21 @@ export const Hackathon: React.FC = () => {
               <td className='bottom'>17:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="date bottom" rowSpan={2}>02/10</td>
+              <td className="date bottom" rowSpan={4}>02/10</td>
               <td className="activity">Hackathon ends.</td>
               <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Speaker Session: Huffidity by @Michaels</td>
-              <td className='bottom'>17:00 (UTC)</td>
+              <td className="activity">Speaker Session: Huffidity by @Michaels</td>
+              <td>17:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Speaker Session: METH/WETH by @philogy</td>
-              <td className='bottom'>18:00 (UTC)</td>
+              <td className="activity">Speaker Session: METH/WETH by @philogy</td>
+              <td>18:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity bottom">Huff Challenge #4: Solady Challenge</td>
+              <td className='bottom'>19:00 (UTC)</td>
             </tr>
             <tr>
               <td className="date">03/10</td>
