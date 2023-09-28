@@ -136,7 +136,7 @@ export const Hackathon: React.FC = () => {
               <td>20:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom"><a href="https://minaminao.github.io/optimizor-war/">Huff Challenge #1: Optimizor War by @minaminao $500 prize pool</a></td>
+              <td className="activity"><a href="https://minaminao.github.io/optimizor-war/">Huff Challenge #1: Optimizor War by @minaminao $500 prize pool</a></td>
               <td className="bottom">22:00 (UTC)</td>
             </tr>
             <tr>
