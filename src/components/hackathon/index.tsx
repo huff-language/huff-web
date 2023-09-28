@@ -119,7 +119,7 @@ export const Hackathon: React.FC = () => {
         <Schedule>
           <tbody>
             <tr>
-              <td className="date bottom" rowSpan={4}>28/9</td>
+              <td className="date bottom" rowSpan={5}>28/9</td>
               <td className="activity">Opening</td>
               <td>15:00 (UTC)</td>
             </tr>
