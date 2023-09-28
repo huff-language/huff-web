@@ -128,16 +128,20 @@ export const Hackathon: React.FC = () => {
               <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Huff Challenge #0: Intro</td>
+              <td className="activity">Huff Challenge #0.1: Stackoor $150 prize pool</td>
               <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom"><a href="https://minaminao.github.io/optimizor-war/">Huff Challenge #1: Optimizor War by @minaminao</a></td>
+              <td className="activity">Huff Challenge #0: Memory Enjoyoor $150 prize pool</td>
+              <td>20:00 (UTC)</td>
+            </tr>
+            <tr>
+              <td className="activity bottom"><a href="https://minaminao.github.io/optimizor-war/">Huff Challenge #1: Optimizor War by @minaminao $500 prize pool</a></td>
               <td className="bottom">22:00 (UTC)</td>
             </tr>
             <tr>
               <td className="date bottom" rowSpan={4}>29/9</td>
-              <td className="activity">Huff Challenge #2: @PraneshASP Challenge</td>
+              <td className="activity">Huff Challenge #2: @PraneshASP Challenge $400 prize pool</td>
               <td>08:00 (UTC)</td>
             </tr>
             <tr>
@@ -149,7 +153,7 @@ export const Hackathon: React.FC = () => {
               <td>13:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Huff Challenge #3: RareSkills Challenge</td>
+              <td className="activity bottom">Huff Challenge #3: RareSkills Challenge $1,000 prize pool</td>
               <td className='bottom'>14:00 (UTC)</td>
             </tr>
             <tr>
@@ -158,7 +162,7 @@ export const Hackathon: React.FC = () => {
               <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Hackathon begins!</td>
+              <td className="activity bottom">Hackathon begins! $6,000 prize pools</td>
               <td className='bottom'>17:00 (UTC)</td>
             </tr>
             <tr>
@@ -175,7 +179,7 @@ export const Hackathon: React.FC = () => {
               <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Huff Challenge #4: Solady Challenge</td>
+              <td className="activity bottom">Huff Challenge #4: Solady Challenge $1,000 prize pool</td>
               <td className='bottom'>19:00 (UTC)</td>
             </tr>
             <tr>
