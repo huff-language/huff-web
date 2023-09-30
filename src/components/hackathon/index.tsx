@@ -179,10 +179,6 @@ export const Hackathon: React.FC = () => {
               <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Huff Challenge #4: Solady Challenge $1,000 prize pool</td>
-              <td className='bottom'>19:00 (UTC)</td>
-            </tr>
-            <tr>
               <td className="date">03/10</td>
               <td className="activity">Closing ceremony with Mystery speaker</td>
               <td>13:00 (UTC)</td>
