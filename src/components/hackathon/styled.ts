@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  background-image: url("./overlay.png");
+  background-image: url('./overlay.png');
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   align-items: center;
   padding-top: 8vh;
   padding-bottom: 8vh;
-`;
+`
 
 export const Container = styled.div`
   width: 100%;
@@ -26,7 +26,7 @@ export const Container = styled.div`
   h1 {
     font-size: 5.5rem;
     font-family: 'Roboto Mono', sans-serif;
-    line-height: .9;
+    line-height: 0.9;
     margin: 0;
     text-align: center;
   }
@@ -36,7 +36,7 @@ export const Container = styled.div`
     font-weight: bold;
     margin: 0;
     text-align: center;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     text-decoration: underline;
     text-decoration-color: #4242c7;
     text-decoration-thickness: 5px;
@@ -46,7 +46,7 @@ export const Container = styled.div`
     font-size: 1.5rem;
     margin: 0;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   p {
@@ -54,7 +54,7 @@ export const Container = styled.div`
     font-size: 1.4rem;
     margin: 0;
   }
-`;
+`
 
 export const Link = styled.a`
   background-color: #4242c7;
@@ -67,16 +67,16 @@ export const Link = styled.a`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    background-color: ${(props) => props.theme.colors.accent0};
+    background-color: ${props => props.theme.colors.accent0};
     color: #4242c7;
   }
-`;
+`
 
 export const Nerds = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4vw;
-`;
+`
 
 export const Nerd = styled.div`
   display: flex;
@@ -96,13 +96,13 @@ export const Nerd = styled.div`
   .nerd-name {
     color: #4242c7;
     font-size: 3vh;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
   }
 
   .nerd-role {
     font-size: 2.25vh;
   }
-`;
+`
 
 export const Schedule = styled.table`
   width: 100%;
@@ -111,7 +111,7 @@ export const Schedule = styled.table`
 
   td {
     font-size: 1.4rem;
-    padding: .25vh 1vw;
+    padding: 0.25vh 1vw;
   }
 
   .date {
@@ -119,7 +119,7 @@ export const Schedule = styled.table`
   }
 
   .activity {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
   }
 
   .bottom {
@@ -132,7 +132,7 @@ export const Schedule = styled.table`
     font-weight: 400;
     color: #4242c7;
   }
-`;
+`
 
 export const FAQs = styled.div`
   list-style: none;
@@ -159,11 +159,11 @@ export const FAQs = styled.div`
     font-weight: 500;
     cursor: pointer;
     font-size: 3vh;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
   }
 
   summary::marker {
     color: #4242c7;
     float: right;
   }
-`;
+`

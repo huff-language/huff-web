@@ -14,19 +14,19 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas, fab)
 
 function NextApp({ Component, pageProps }: AppProps): JSX.Element {
-	return (
-		<StyledThemeProvider>
-			<Head>
-				<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet' />
-				<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
-				<link rel='shortcut icon' href='/huff_dark.png' />
-				<title>Huff Language</title>
-			</Head>
-			<GlobalStyle />
+  return (
+    <StyledThemeProvider>
+      <Head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet' />
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+        <link rel='shortcut icon' href='/huff_dark.png' />
+        <title>Huff Language</title>
+      </Head>
+      <GlobalStyle />
 
-			<Component {...pageProps} />
-		</StyledThemeProvider>
-	)
+      <Component {...pageProps} />
+    </StyledThemeProvider>
+  )
 }
 
 export default NextApp

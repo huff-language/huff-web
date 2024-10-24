@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Container, Wrapper, Link, Nerds, Nerd, Schedule, FAQs } from './styled';
+import { Container, Wrapper, Link, Nerds, Nerd, Schedule, FAQs } from './styled'
 import { Logo } from '@components/main/styled'
 import LinkNav from '@components/nav'
-import { BsLink45Deg } from 'react-icons/bs';
+import { BsLink45Deg } from 'react-icons/bs'
 
-const nerds: Array<{ name: string, role: string, pfp: string }> = [];
+const nerds: Array<{ name: string; role: string; pfp: string }> = []
 //   {
 //     name: "Aks Hually",
 //     role: "CEO of Nerd Inc",
@@ -43,44 +43,53 @@ const nerds: Array<{ name: string, role: string, pfp: string }> = [];
 //   },
 // ];
 
-const faqs: Array<{ question: string, answer: string }> = [
+const faqs: Array<{ question: string; answer: string }> = [
   {
-    question: "What is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event where developers can learn about Huff and EVM programming, build projects, and compete for prizes. It's a great opportunity to learn, network, and collaborate with other developers."
+    question: 'What is the Huff Hackathon?',
+    answer:
+      "The Huff Hackathon is a virtual event where developers can learn about Huff and EVM programming, build projects, and compete for prizes. It's a great opportunity to learn, network, and collaborate with other developers.",
   },
   {
-    question: "When and where is the Huff Hackathon?",
-    answer: "The Huff Hackathon is a virtual event that will take place on X (formerly known as Twitter) and the Huff Discord server. The event will begin on Thursday, September 28, 2023, and end on Tuesday, October 3rd, 2023."
+    question: 'When and where is the Huff Hackathon?',
+    answer:
+      'The Huff Hackathon is a virtual event that will take place on X (formerly known as Twitter) and the Huff Discord server. The event will begin on Thursday, September 28, 2023, and end on Tuesday, October 3rd, 2023.',
   },
   {
-    question: "How can I participate in the Huff Hackathon?",
-    answer: "To participate in the Huff Hackathon, you must register on our official website. Registration is free and open to developers of all levels and backgrounds."
+    question: 'How can I participate in the Huff Hackathon?',
+    answer:
+      'To participate in the Huff Hackathon, you must register on our official website. Registration is free and open to developers of all levels and backgrounds.',
   },
   {
-    question: "What are the key dates and deadlines for the Huff Hackathon?",
-    answer: "Important dates and deadlines, including submission deadlines, will be available on our website and communicated to participants. Be sure to check the official hackathon page for updates."
+    question: 'What are the key dates and deadlines for the Huff Hackathon?',
+    answer:
+      'Important dates and deadlines, including submission deadlines, will be available on our website and communicated to participants. Be sure to check the official hackathon page for updates.',
   },
   {
-    question: "What kind of projects are eligible for submission?",
-    answer: "Projects created using Huff and related to blockchain, Ethereum, or EVM are eligible for submission. Themes and categories, if any, will be announced prior to the hackathon."
+    question: 'What kind of projects are eligible for submission?',
+    answer:
+      'Projects created using Huff and related to blockchain, Ethereum, or EVM are eligible for submission. Themes and categories, if any, will be announced prior to the hackathon.',
   },
   {
-    question: "What is the judging criteria for the hackathon?",
-    answer: "Projects will be judged based on factors such as creativity, technical innovation, functionality, and overall impact. Detailed judging criteria will be provided to participants during the event."
+    question: 'What is the judging criteria for the hackathon?',
+    answer:
+      'Projects will be judged based on factors such as creativity, technical innovation, functionality, and overall impact. Detailed judging criteria will be provided to participants during the event.',
   },
   {
-    question: "Do I need to have prior experience with Huff or EVM programming to participate?",
-    answer: "While prior experience can be helpful, it is not a strict requirement. The hackathon may offer resources and support for participants to learn Huff and EVM programming during the event."
+    question: 'Do I need to have prior experience with Huff or EVM programming to participate?',
+    answer:
+      'While prior experience can be helpful, it is not a strict requirement. The hackathon may offer resources and support for participants to learn Huff and EVM programming during the event.',
   },
   {
-    question: "Can I participate as an individual or do I need to form a team?",
-    answer: "You can participate either as an individual or as part of a team. The ideal team size may vary, but having diverse skills within your team can be advantageous."
+    question: 'Can I participate as an individual or do I need to form a team?',
+    answer:
+      'You can participate either as an individual or as part of a team. The ideal team size may vary, but having diverse skills within your team can be advantageous.',
   },
   {
-    question: "Are there any prizes or rewards for the winners?",
-    answer: "Yes, there are prizes and rewards for the winners, including cash prizes, swag, and potential opportunities to collaborate with industry experts. Details about the prizes will be announced closer to the event."
-  }
-];
+    question: 'Are there any prizes or rewards for the winners?',
+    answer:
+      'Yes, there are prizes and rewards for the winners, including cash prizes, swag, and potential opportunities to collaborate with industry experts. Details about the prizes will be announced closer to the event.',
+  },
+]
 
 export const Hackathon: React.FC = () => {
   return (
@@ -92,22 +101,17 @@ export const Hackathon: React.FC = () => {
           <h2>The World's First Huff Hackathon</h2>
           <h3 style={{ marginTop: '1vh' }}>Sep 28 - Oct 03, 2023 · Virtual</h3>
         </div>
-        <Link href="https://forms.gle/hCfAnMpiJ6c4gziT8">
-          <span>Register now to participate</span>
-          {' '}
-          <BsLink45Deg />
+        <Link href='https://forms.gle/hCfAnMpiJ6c4gziT8'>
+          <span>Register now to participate</span> <BsLink45Deg />
         </Link>
       </Container>
 
       <Container>
         <h2>About</h2>
         <p>
-          Harness the dark arts of EVM with Huff, the cryptic language that
-          separates wizards from muggles.
-          Inscribe your name in the annals of
-          crypto history by joining the Hackathon of the arcane. Embrace the
-          challenge and craft spells of smart contracts that will shape the
-          future!
+          Harness the dark arts of EVM with Huff, the cryptic language that separates wizards from muggles. Inscribe your name in the annals
+          of crypto history by joining the Hackathon of the arcane. Embrace the challenge and craft spells of smart contracts that will
+          shape the future!
           <br />
           <br />
           Join now to have fun and win cool prizes: moolah, swag and NFTs!
@@ -119,86 +123,92 @@ export const Hackathon: React.FC = () => {
         <Schedule>
           <tbody>
             <tr>
-              <td className="date bottom" rowSpan={5}>28/9</td>
-              <td className="activity">Opening</td>
+              <td className='date bottom' rowSpan={5}>
+                28/9
+              </td>
+              <td className='activity'>Opening</td>
               <td>15:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Workshop / office hours</td>
+              <td className='activity'>Workshop / office hours</td>
               <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Huff Challenge #0.1: Stackoor $150 prize pool</td>
+              <td className='activity'>Huff Challenge #0.1: Stackoor $150 prize pool</td>
               <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Huff Challenge #0: Memory Enjoyoor $150 prize pool</td>
+              <td className='activity'>Huff Challenge #0: Memory Enjoyoor $150 prize pool</td>
               <td>20:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity"><a href="https://minaminao.github.io/optimizor-war/">Huff Challenge #1: Optimizor War by @minaminao $500 prize pool</a></td>
+              <td className='activity'>
+                <a href='https://minaminao.github.io/optimizor-war/'>Huff Challenge #1: Optimizor War by @minaminao $500 prize pool</a>
+              </td>
               <td>22:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="date bottom" rowSpan={4}>29/9</td>
-              <td className="activity">Huff Challenge #2: @PraneshASP Challenge $400 prize pool</td>
+              <td className='date bottom' rowSpan={4}>
+                29/9
+              </td>
+              <td className='activity'>Huff Challenge #2: @PraneshASP Challenge $400 prize pool</td>
               <td>08:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Speaker Session: huff-stacker by @shafu</td>
+              <td className='activity'>Speaker Session: huff-stacker by @shafu</td>
               <td>13:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Speaker Session: Production Huff by @jtriley</td>
+              <td className='activity'>Speaker Session: Production Huff by @jtriley</td>
               <td>13:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Huff Challenge #3: RareSkills Challenge $1,000 prize pool</td>
+              <td className='activity bottom'>Huff Challenge #3: RareSkills Challenge $1,000 prize pool</td>
               <td className='bottom'>14:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="date bottom" rowSpan={2}>30/9</td>
-              <td className="activity">Pre-Hackathon workshop / office hours</td>
+              <td className='date bottom' rowSpan={2}>
+                30/9
+              </td>
+              <td className='activity'>Pre-Hackathon workshop / office hours</td>
               <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity bottom">Hackathon begins! $6,000 prize pools</td>
+              <td className='activity bottom'>Hackathon begins! $6,000 prize pools</td>
               <td className='bottom'>17:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="date bottom" rowSpan={4}>02/10</td>
-              <td className="activity">Hackathon ends.</td>
+              <td className='date bottom' rowSpan={4}>
+                02/10
+              </td>
+              <td className='activity'>Hackathon ends.</td>
               <td>16:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Speaker Session: Huffidity by @Michaels</td>
+              <td className='activity'>Speaker Session: Huffidity by @Michaels</td>
               <td>17:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="activity">Speaker Session: METH/WETH by @philogy</td>
+              <td className='activity'>Speaker Session: METH/WETH by @philogy</td>
               <td>18:00 (UTC)</td>
             </tr>
             <tr>
-              <td className="date">03/10</td>
-              <td className="activity">Closing ceremony with Mystery speaker</td>
+              <td className='date'>03/10</td>
+              <td className='activity'>Closing ceremony with Mystery speaker</td>
               <td>13:00 (UTC)</td>
             </tr>
           </tbody>
         </Schedule>
-      </Container >
+      </Container>
 
       <Container>
         <h2>Speakers &amp; Judges</h2>
         <Nerds>
-          {nerds.map((nerd) => (
+          {nerds.map(nerd => (
             <Nerd>
-              <img
-                key={nerd.name}
-                src={nerd.pfp}
-                alt={nerd.name}
-              />
-              <p className="nerd-name">{nerd.name}</p>
-              <p className="nerd-role">{nerd.role}</p>
+              <img key={nerd.name} src={nerd.pfp} alt={nerd.name} />
+              <p className='nerd-name'>{nerd.name}</p>
+              <p className='nerd-role'>{nerd.role}</p>
             </Nerd>
           ))}
         </Nerds>
@@ -207,7 +217,7 @@ export const Hackathon: React.FC = () => {
       <Container>
         <h2>Frequently Asked Questions</h2>
         <FAQs>
-          {faqs.map((faq) => (
+          {faqs.map(faq => (
             <li key={faq.question}>
               <details>
                 <summary>{faq.question}</summary>
@@ -220,6 +230,6 @@ export const Hackathon: React.FC = () => {
       <Container>
         <LinkNav />
       </Container>
-    </Wrapper >
+    </Wrapper>
   )
 }
